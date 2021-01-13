@@ -83,7 +83,7 @@ button {
 }
 
 .price {
-    color: #FF6400; 
+    color: #FF6B00; 
     font-weight: 500;
     font-size: 20px;
     font-family: 'DM Sans', sans-serif;
@@ -95,7 +95,7 @@ button {
 
 #bag-btn {
     all: unset; 
-    background-color:  #FF6400;
+    background-color:  #FF6B00;
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -120,7 +120,7 @@ button {
 }
 
 .active {
-    color:  #FF6400;
+    color:  #FF6B00;
 }
 
 #previous-btn {
@@ -137,4 +137,40 @@ button {
     background-color: white; 
     padding: 7px;
     /* para poder ver los iconos */
+}
+
+.payment {
+    background-color: #FF6B00;
+    width: auto; 
+    height: 298px;
+    padding: 0px;
+    font-size: 18px;
+    color: #FFBE76; 
+    font-weight: normal;
+
+}
+
+
+#input-container{
+    background:white; 
+    width: 374px;
+    height: 88px;
+    border-radius: 64px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input::placeholder {
+    color: grey; 
+    padding: 5px; 
+}
+
+.name-input{
+    all: unset; 
+    background: #F3F3F3;
+    width: 333px;
+    height: 50px;
+    border-radius: 17px;
 }

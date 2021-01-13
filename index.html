@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food App</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
@@ -12,10 +12,10 @@
     <h1 id="title">Food for Home</h1>
     <h5>Lorem ipsum dolor sit amet. consectetur</h5>
 
-    <button class="categories-btn" type="button"><img src="img/breakfast.png" height=50px>Breakfast</button>
-    <button class="categories-btn" type="button"><img src="img/breakfast.png" height=50px>Fast food</button>
-    <button class="categories-btn" type="button"><img src="img/breakfast.png" height=50px>Dinner</button>
-    <button class="categories-btn" type="button"><img src="img/breakfast.png" height=50px>Dessert</button>
+    <button class="categories-btn" type="button"><img src="assets/img/breakfast.png" height=50px>Breakfast</button>
+    <button class="categories-btn" type="button"><img src="assets/img/breakfast.png" height=50px>Fast food</button>
+    <button class="categories-btn" type="button"><img src="assets/img/breakfast.png" height=50px>Dinner</button>
+    <button class="categories-btn" type="button"><img src="assets/img/breakfast.png" height=50px>Dessert</button>
 
     <p class="price">$52.00</p>
     <h4>Chicken Veggi Salad</h4>
@@ -28,8 +28,8 @@
         <button class="counter-btn" id="plus-btn" type="button" name="button">
           +
         </button>
-      </div>
-    <img class="menu-img" src="img/chickenVeggieSalad.jpg" alt="chicken veggi salad" width="120px" height="120px"> <br>
+    </div>
+    <img class="menu-img" src="assets/img/chickenVeggieSalad.jpg" alt="chicken veggi salad" width="120px" height="120px"> <br>
     <button id="bag-btn"><span class="material-icons md-light md-20">shopping_bag</span></button>
     <div class="bg">
       <a href="#"><span class="material-icons md-grey">home</span></a>
@@ -39,5 +39,15 @@
       <button id="previous-btn"><span class="material-icons md-14">arrow_back_ios</span></button>
     </div>
     <h3>My Cart</h3>
+
+    <section class="payment">
+      <section id="input-container">
+        <input type="text" class="name-input" placeholder="Nombre">
+      </section>
+      <p>Subtotal</p>
+      <p>Tax & Fees</p>
+      <p>Delivery</p>
+      <p>TOTAL</p>
+    </section>
 </body>
 </html>
