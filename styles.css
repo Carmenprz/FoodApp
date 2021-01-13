@@ -1,23 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     background-color: #F0F3F5;
 }
 
 h3 {
     font-weight: 700;
-    font-size: 20px; 
+    font-size: 22px;
 }
 
 h4 {
+    font-weight: 700;
+    font-size: 20px; 
+}
+
+
+h5 {
     font-weight: 500;
     font-size: 16px; 
     color: grey; 
 }
 
-h5 {
+h6 {
     font-weight: 500;
     font-size: 14px; 
     color:grey; 
@@ -41,7 +47,7 @@ button {
     background-color: white;
     height: 110px;
     width: 85px;
-    font-size: 11px; 
+    font-size: 12px; 
     font-weight: 650;
     border-radius: 15px;
     text-align: center; 
@@ -54,7 +60,7 @@ button {
     width: 20px;
     text-align: center;
     color: grey; 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Catamaran', sans-serif;
 }
 
 #counter-num {
@@ -109,6 +115,26 @@ button {
     font-size: 20px; 
 }
 
+.material-icons.md-14 { 
+    font-size: 14px; 
+}
+
 .active {
     color:  #FF6400;
+}
+
+#previous-btn {
+    all: unset; 
+    background-color:#F0F3F5;
+    color: black; 
+    border-radius: 7px;
+    padding: 4px 3px 1px 8px; 
+    text-align: center; 
+
+}
+
+.bg{
+    background-color: white; 
+    padding: 7px;
+    /* para poder ver los iconos */
 }
