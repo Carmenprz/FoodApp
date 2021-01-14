@@ -1,9 +1,22 @@
+@import 'components/molecules.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
 
 body {
     font-family: 'Catamaran', sans-serif;
     background-color: #F0F3F5;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+h2 {
+    font-weight: 550;
+    font-size: 16px;
 }
 
 h3 {
@@ -33,15 +46,6 @@ button {
     all: unset;
 }
 
-#logo {
-    font-weight: 550;
-    font-size: 16px;
-}
-
-#title {
-    font-weight: 700;
-    font-size: 30px;
-}
 
 .categories-btn {
     background-color: white;
@@ -139,17 +143,13 @@ button {
     /* para poder ver los iconos */
 }
 
+
 .payment {
     background-color: #FF6B00;
-    width: auto; 
+    width: 374px; 
     height: 298px;
     padding: 0px;
-    font-size: 18px;
-    color: #FFBE76; 
-    font-weight: normal;
-
 }
-
 
 #input-container{
     background:white; 
@@ -173,4 +173,19 @@ input::placeholder {
     width: 333px;
     height: 50px;
     border-radius: 17px;
+}
+
+.titles-payment {
+    font-size: 18px;
+    color: #FFBE76; 
+    font-weight: normal;
+    width: 100px;
+}
+
+.result-payment {
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    color: white;
+    width: 100px;
 }

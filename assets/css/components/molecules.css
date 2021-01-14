@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: right; 
+}
+
+
+
+.body-payment {
+    display: grid; 
+    grid-template-columns: 100px 100px;
+}
+
+.titles-payment {
+
+}
+
+.result-payment {
+
+}
