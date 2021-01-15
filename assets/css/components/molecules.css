@@ -13,11 +13,29 @@ header {
     height: 130px;
 }
 
-
-.titles-payment {
-
+.product {
+    height: 122px;
+    width: 305px;
+    margin: 0px; 
+    padding-bottom: 22px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
 }
 
-.result-payment {
+nav {
+    height: 104px;
+    background-color: white;
+    overflow: hidden;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+nav a {
+    display: inline-block;  
 
 }

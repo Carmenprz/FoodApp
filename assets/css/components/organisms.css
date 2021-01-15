@@ -1,0 +1,9 @@
+.content {
+    margin-left: 29px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
