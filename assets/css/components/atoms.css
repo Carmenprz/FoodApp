@@ -1,4 +1,3 @@
-@import 'components/molecules.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
@@ -6,17 +5,21 @@
 
 body {
     font-family: 'Catamaran', sans-serif;
-    background-color: #F0F3F5;
+    background-color: #FAFAFA;
+    margin-left: 29px;
+    margin-right: 0px;
 }
 
 h1 {
     font-weight: 700;
     font-size: 30px;
+    margin-bottom: 0px;
 }
 
 h2 {
     font-weight: 550;
     font-size: 16px;
+    margin-bottom: 0px; 
 }
 
 h3 {
@@ -33,8 +36,10 @@ h4 {
 h5 {
     font-weight: 500;
     font-size: 16px; 
-    color: grey; 
+    color: #C1C1C1;
+    margin: 0px;
 }
+
 
 h6 {
     font-weight: 500;
@@ -46,17 +51,29 @@ button {
     all: unset;
 }
 
-
 .categories-btn {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
-    height: 110px;
-    width: 85px;
-    font-size: 12px; 
-    font-weight: 650;
-    border-radius: 15px;
-    text-align: center; 
-    /*falta acoplar botones con numero */
+    height: 109px;
+    width: 87px;
+    box-shadow: 13px 7px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 13px;
+    margin-right: 16px;
 }
+
+.categories-btn img {
+    height:50px;
+    padding-top: 17px; 
+}
+
+.categories-btn p {
+    text-align: center; 
+    font-size: 12px; 
+    font-weight: 700;
+}
+
 
 .counter-btn {
     background-color: white; 

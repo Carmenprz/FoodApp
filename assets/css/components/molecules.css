@@ -1,15 +1,18 @@
 header {
+    height: 131px;
+    width: 315px;
     display: flex;
     flex-direction: column;
     justify-content: right; 
 }
 
-
-
-.body-payment {
-    display: grid; 
-    grid-template-columns: 100px 100px;
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 20px;
+    height: 130px;
 }
+
 
 .titles-payment {
 
