@@ -168,35 +168,41 @@ button {
     margin-right: 24px;
 }
 
-#bag-btn {
+.home-icon {
+    width: 20px;
+}
+
+.box-icon {
+    width: 23px;
+}
+
+.heart-icon {
+    width: 23px;
+}
+
+.profile-icon {
+    width: 20px;
+}
+
+.shop-icon {
+    width: 20px;
+    fill: white; 
+    margin-top: 4px;
+}
+
+
+.bag-btn {
+    position: absolute;
     all: unset; 
     background-color:  #FF6B00;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    width: 56px;
+    height: 56px;
     text-align: center;
-    box-shadow: 3px 5px 10px #888888; 
+    align-items: center;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.37);
 }
 
-.material-icons.md-light { 
-    color: rgba(255, 255, 255, 1); 
-}
-
-.material-icons.md-grey { 
-    color: grey;  
-}
-
-.material-icons.md-20 { 
-    font-size: 20px; 
-}
-
-.material-icons.md-14 { 
-    font-size: 14px; 
-}
-
-.active {
-    color:  #FF6B00;
-}
 
 #previous-btn {
     all: unset; 
