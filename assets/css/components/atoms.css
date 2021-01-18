@@ -45,7 +45,7 @@ h5 {
 h6 {
     font-weight: 500;
     font-size: 14px; 
-    color:grey; 
+    color:#C1C1C1; 
     margin: 0px;
 }
 
@@ -168,6 +168,24 @@ button {
     margin-right: 24px;
 }
 
+.modal-img {
+    border-radius: 24px;
+    width: 118px; 
+    height: 122px;
+}
+
+.description-modal {
+    width: 253px;
+    height: 55px;
+    font-family: Catamaran;
+    font-size: 12px;
+    line-height: 106.5%;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: #000000;
+}
+
+
 .home-icon {
     width: 20px;
 }
@@ -266,3 +284,5 @@ input::placeholder {
     color: white;
     width: 100px;
 }
+
+

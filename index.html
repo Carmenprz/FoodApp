@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food App</title>
     <link rel="stylesheet" href="assets/css/main.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
 </head>
 <body>
   <section class="content">
@@ -33,11 +33,31 @@
         <p>Dessert</p>
       </button>
     </section>
+
     <section class="products">
-        <article class="product">
+      <article class="product">
         <img class="menu-img" src="assets/img/chickenVeggieSalad.jpg" alt="chicken veggi salad">
         <p class="price">$52.00</p>
-        <h4>Chicken Veggi Salad</h4>
+        <button id="modalBtn"></button><h4>Chicken Veggi Salad</h4></button>
+          <section id="myModal" class="modal">
+            <article class="modal-content">
+              <button class="close">&times;</button>
+              <img class="modal-img" src="assets/img/chickenVeggieSalad.jpg" alt="chicken veggi salad">
+              <h4>Chicken Veggi Salad</h4>
+              <h6>With cheese sauce</h6>
+              <p class="description-modal">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi.
+              </p>
+              <p class="price">$52.00</p>
+              <div class="quantity">
+                <a href="#" class="quantity__minus"><span>-</span></a>
+                <input name="quantity" type="text" class="quantity__input" value="0">
+                <a href="#" class="quantity__plus"><span>+</span></a>
+              </div>
+            </article>
+          </section>
         <h6>With cheese sauce</h6>
         <div class="quantity">
           <a href="#" class="quantity__minus"><span>-</span></a>
@@ -45,6 +65,7 @@
           <a href="#" class="quantity__plus"><span>+</span></a>
         </div>
       </article>
+
       <article class="product">
         <img class="menu-img" src="https://i.ibb.co/ssyM0RQ/Origin-Mart-480a-Veg-Mutton-Chunk.jpg" alt="Mutton Curry">
         <p class="price">$23.00</p>
@@ -56,6 +77,7 @@
           <a href="#" class="quantity__plus"><span>+</span></a>
         </div>
       </article>
+
       <article class="product">
         <img class="menu-img" src="https://i.ibb.co/KmCMtst/buffalofries-3.jpg" alt="french fries">
         <p class="price">$21.00</p>
