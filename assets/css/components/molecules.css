@@ -26,7 +26,7 @@ header {
 
 .modal {
     position: fixed; 
-    display: flex;
+    display: none;
     z-index: 1;
     left: 0;
     top: 0;
