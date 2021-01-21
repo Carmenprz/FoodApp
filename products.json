@@ -1,0 +1,35 @@
+{
+    "items": [
+        {
+            "sys": {"id": "1"}, 
+            "fields": {
+                "title": "Chicken Veggi Salad",
+                "subtitle": "With cheese sauce", 
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.", 
+                "price": 52.00,
+                "image": "css/img/chickenVeggieSalad.jpg"
+            }
+        },
+        {
+            "sys": {"id": "2"}, 
+            "fields": {
+                "title": "Mutton Curry",
+                "subtitle": "With basmati rice", 
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.", 
+                "price": 23.00,
+                "image": "css/img/chickenVeggieSalad.jpg"
+            }
+        },
+        {
+            "sys": {"id": "3"}, 
+            "fields": {
+                "title": "French Fry",
+                "subtitle": "With beef bacon", 
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.", 
+                "price": 21.00,
+                "image": "css/img/chickenVeggieSalad.jpg"
+            }
+        }
+
+    ]
+}
