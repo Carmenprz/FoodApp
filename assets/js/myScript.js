@@ -45,7 +45,8 @@ class Products {
             products = products.map(item => {
                 const {title,price,subtitle,description} = item.fields;
                 const {id} = item.sys; 
-                return {title,price,subtitle,description,id}
+                const image = item.fields.image.fields.file.url;
+                return {title,price,subtitle,description,id,image}
             })
             return products; 
         } catch (error) {
@@ -63,7 +64,7 @@ class UI {
         products.forEach(product => {
             result +=`
             <article class="product">
-                <img class="menu-img" id="image-product" src="assets/img/chickenVeggieSalad.jpg" alt="chicken veggi salad">
+                <img class="menu-img" id="image-product" src="${product.image}" alt="picture of the product">
                 <p class="price" id="price-product">$${product.price}</p>
                 <button id="myBtn"><h4 id="title-product">${product.title}</h4></button>
                 <h6 id="subtitle-product">${product.subtitle}</h6>

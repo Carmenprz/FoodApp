@@ -7,7 +7,7 @@
                 "subtitle": "With cheese sauce", 
                 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.", 
                 "price": 52.00,
-                "image": "css/img/chickenVeggieSalad.jpg"
+                "image": { "fields": { "file": { "url": "assets/img/chickenVeggieSalad.jpg" } } }
             }
         },
         {
@@ -17,7 +17,7 @@
                 "subtitle": "With basmati rice", 
                 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.", 
                 "price": 23.00,
-                "image": "css/img/chickenVeggieSalad.jpg"
+                "image": { "fields": { "file": { "url": "assets/img/muttonCurry.jpg" } } }
             }
         },
         {
@@ -27,7 +27,7 @@
                 "subtitle": "With beef bacon", 
                 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.", 
                 "price": 21.00,
-                "image": "css/img/chickenVeggieSalad.jpg"
+                "image": { "fields": { "file": { "url": "assets/img/fries.jpg" } } }
             }
         }
 
